@@ -1,4 +1,5 @@
-local colors = require('lib.loveconsole.colors')
+local root = (...):match("(.-)[^%/%.]+$")
+local colors = require(root .. 'colors')
 
 local console = {}
 function console.initialize(props)

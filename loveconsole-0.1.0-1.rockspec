@@ -1,5 +1,5 @@
 package = 'loveconsole'
-version = '0.1.0-1'
+version = '0.1.1-1'
 source = {
   url = "git://github.com/sternold/loveconsole",
   branch = "master"
@@ -18,7 +18,7 @@ dependencies = {
 build = {
   type = 'builtin',
   modules = {
-    ['loveconsole']                                   = 'console.lua',
+    ['loveconsole.console']                           = 'console.lua',
     ['loveconsole.colors']                            = 'colors.lua',
   }
 }
