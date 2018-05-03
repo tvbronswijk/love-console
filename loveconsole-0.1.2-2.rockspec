@@ -1,5 +1,5 @@
 package = 'loveconsole'
-version = '0.1.2-1'
+version = '0.1.2-2'
 source = {
   url = "git://github.com/sternold/loveconsole",
   branch = "master"
@@ -13,7 +13,8 @@ description = {
   license = 'MIT <http://opensource.org/licenses/MIT>'
 }
 dependencies = {
-  'lua >= 5.1'
+  'lua >= 5.1',
+  'love >= 0.11'
 }
 build = {
   type = 'builtin',
